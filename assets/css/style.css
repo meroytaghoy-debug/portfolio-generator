@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f4f6fb; color: #222; line-height: 1.5; }
+.navbar { background: #1f2a44; padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+.navbar a { color: #fff; text-decoration: none; }
+.brand { font-weight: bold; font-size: 1.2rem; }
+.nav-links a { margin-left: 16px; }
+.container { max-width: 900px; margin: 30px auto; padding: 0 16px; }
+.card { background: #fff; border-radius: 10px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,.08); margin-bottom: 20px; }
+.hero { text-align: center; padding: 60px 20px; }
+.btn { display: inline-block; background: #3b5bdb; color: #fff; padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer; text-decoration: none; font-size: 1rem; }
+.btn:hover { background: #2f49b0; }
+.btn-secondary { background: #6c757d; }
+.btn-danger { background: #d6336c; }
+.btn-small { padding: 6px 12px; font-size: .9rem; }
+label { display: block; margin: 12px 0 4px; font-weight: bold; }
+input[type=text], input[type=email], input[type=file], textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; font-family: inherit; }
+.row-card { background: #f8f9fc; border: 1px solid #e1e5ee; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+.error { background: #ffe3e3; color: #a61e1e; padding: 12px; border-radius: 6px; margin-bottom: 16px; }
+.footer { text-align: center; padding: 20px; color: #777; }
+.preview-img { width: 100px; height: 100px; object-fit: cover; border-radius: 50%; display: block; margin: 8px 0; }
+@media (max-width: 600px) {
+  .nav-links a { margin: 0 12px 0 0; }
+  .card { padding: 16px; }
+}
